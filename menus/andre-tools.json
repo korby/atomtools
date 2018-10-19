@@ -1,0 +1,30 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Oneline andre-tools",
+        "command": "andre-tools:oneline"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "andre-tools",
+          "submenu": [
+            {
+              "label": "Oneline",
+              "command": "andre-tools:oneline"
+            },
+            {
+              "label": "Test",
+              "command": "andre-tools:test"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
